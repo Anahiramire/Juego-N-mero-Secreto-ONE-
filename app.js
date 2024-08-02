@@ -12,8 +12,6 @@ function editarHTML(elemento, texto){
 
 function numeroAleatorio(){
     let numeroGenerado=Math.floor(Math.random()*numeroMaximo)+1;
-    console.log(numeroGenerado);
-    console.log(guardarNumero);
     
     if (guardarNumero.length==numeroMaximo){
         guardarNumero.splice(0,guardarNumero.length);
